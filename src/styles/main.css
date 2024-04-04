@@ -1,0 +1,54 @@
+.main {
+  height: 100vh; /* 100% of the viewport height */
+  width: 100vw; /* 100% of the viewport width */
+  background-color: red;
+}
+
+.topmain {
+  background-color: white;
+  padding: 10px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.input-box {
+  height: 37px;
+  border-radius: 12px;
+  padding-left: 12px;
+  width: 50%;
+}
+
+.button {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  width: 112px;
+  border-radius: 14px;
+  cursor: pointer;
+  background-color: rgb(88, 88, 150);
+  color: white;
+  border: 0px;
+}
+
+.en-bg {
+  background-color: blue !important;
+}
+.hi-bg {
+  background-color: red !important;
+}

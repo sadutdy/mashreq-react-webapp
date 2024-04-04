@@ -1,0 +1,25 @@
+.login-body {
+  height: 100vh; /* 100% of the viewport height */
+  width: 100vw; /* 100% of the viewport width */
+  background-color: white;
+}
+
+.logo-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 12px;
+}
+.logo-image:hover {
+  width: 103px;
+  height: 103px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.login-block {
+  width: 80%;
+  height: 500px;
+  background-color: #757575;
+  border: 1px solid black;
+  color: white;
+}
