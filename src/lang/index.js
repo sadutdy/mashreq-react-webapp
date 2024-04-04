@@ -6,4 +6,9 @@ const languages = { en, hi }
 //background-colors for each lang
 const bgColors = { en: 'red', hi: 'blue' }
 
-export { languages, bgColors }
+const langDropdown = [
+  { name: 'English', suffix: 'en' },
+  { name: 'Hindi', suffix: 'hi' },
+]
+
+export { languages, bgColors, langDropdown }
