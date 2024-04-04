@@ -32,18 +32,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 **Test user credetials**
 
+``Email : admam@domain.com``
+``Password : 1234``
+
 Login API are managed through a custom mocked API , which returns a prefixed json which is located in _src/data/users.json_
 
 <img width="452" alt="Screenshot 2024-04-04 at 1 21 25 PM" src="https://github.com/sadutdy/mashreq-react-webapp/assets/26121634/3f6ae806-b3c0-4dfc-a731-3e0a8dc87f6c">
 
 We can add more users into this json to support more user
-
-valid login credatails 
-
-``
-Email : admam@domain.com
-Password : 1234
-``
 
 **Multi Language Support**
 
