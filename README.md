@@ -62,32 +62,6 @@ Multi-Language is managed by having individual json file for each language
 
 
 
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-
-
 
 
 
