@@ -5,8 +5,8 @@ import { languages, bgColors } from "../../lang";
 
 const sampleUser = {
   id: 1,
-  name: "Sadakkathulla",
-  email: "sadutdy@gmail.com",
+  name: "Adam",
+  email: "adam@domain.com",
   password: "1234",
   lang: "en",
 };
@@ -21,8 +21,8 @@ const CustomWrapper = ({ children }) => {
   const logout = () => setUser(null);
 
   //set user specific lang
-  const changeLang = (value) =>setLang(value);
-   
+  const changeLang = (value) => setLang(value);
+
 
   //translate text from user specific lang
   const translate = (key) => {
